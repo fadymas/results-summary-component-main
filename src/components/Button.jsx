@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 function Button() {
-  const [scale, setScale] = useState(100);
+  const [scale, setScale] = useState("scale-100");
 
   function handleMouseDown() {
-    setScale(90);
+    setScale("scale-90");
   }
   function handleMouseUp() {
-    setScale(100);
+    setScale("scale-100");
   }
   return (
     <button
@@ -16,7 +16,7 @@ function Button() {
       onMouseLeave={handleMouseUp}
       onTouchStart={handleMouseDown}
       onTouchEnd={handleMouseUp}
-      className={`rounded-[1.75rem] scale-${scale} h-14 text-white bg-dark-gray-blue text-lg font-extrabold hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue  transition-all cursor-pointer`}
+      className={`rounded-[1.75rem] ${scale}  h-14 text-white bg-dark-gray-blue text-lg font-extrabold hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue  transition-all cursor-pointer`}
     >
       Continue
     </button>

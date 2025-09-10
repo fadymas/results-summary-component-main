@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/results-summary-component-using-react-tailwind-css-and-json-data-iEHUn7yI_O](https://www.frontendmentor.io/solutions/results-summary-component-using-react-tailwind-css-and-json-data-iEHUn7yI_O)
 - Live Site URL: [https://fadymas.github.io/results-summary-component-main/](https://fadymas.github.io/results-summary-component-main/)
 
 ## My process
@@ -48,8 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned how to work with React by creating small reusable components (components architecture), keeping them pure so they always return the same result for the same input (pure functions), passing data with props (props), and managing changes with useState (state). I also used useEffect (side effects) to fetch and show the data when the component loads.
-
+In this project, I learned how to work with React by creating small reusable components (components architecture), keeping them pure so they always return the same result for the same input (pure functions), passing data with props (props), and managing changes with useState (state). I also used useEffect (side effects) to fetch and show the data when the component loads. In addition, I practiced conditional rendering (conditional render) to display loading states and skeletons before the data is ready.
 
 ### Useful resources
 

@@ -5,7 +5,7 @@ function App() {
   const [rates, setRates] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("/data.json")
+    fetch("./data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Error");
@@ -14,7 +14,10 @@ function App() {
       })
       .then((data) => {
         setRates(data);
-        setLoading(false);  
+        setLoading(false);
+      })
+      .catch((e) => {
+        console.log(e);
       });
   }, []);
   return (
