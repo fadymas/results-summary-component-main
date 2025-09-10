@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Pc Version](images/pcVersion.png)
-![Mobile Version](images/mobileVersion.png)
+![Pc Version](public/assets/images/3ebac5ff-5abf-4492-8d0e-2d03ca2e6688.png)
+![Mobile Version](public/assets/images/1987fc9a-b38b-4c98-bc32-ab9b79b758be.png)
 
 ### Links
 
